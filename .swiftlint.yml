@@ -1,0 +1,8 @@
+included: 
+    - Learnly
+    - Packages
+excluded:
+    - Derived
+    - DerivedData
+    - Tuist/.build
+    - "**/.build"
