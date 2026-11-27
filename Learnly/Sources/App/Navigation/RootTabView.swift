@@ -10,10 +10,18 @@ import SwiftUI
 struct RootTabView: View {
     @Bindable var router: AppRouter
 
+    let container: AppContainer
+
     var body: some View {
         TabView(selection: $router.selectedTab) {
-            NavigationStack {
-                CatalogView()
+            NavigationStack(path: $router.catalogPath) {
+                CatalogBuilder.build(repository: container.courseRepository, appRouter: router)
+                    .navigationDestination(for: CatalogRoute.self) { route in
+                        switch route {
+                        case .courseDetail(let courseID):
+                            CourseView(courseID: courseID)
+                        }
+                    }
             }
             .tabItem {
                 Label(AppTab.catalog.title, systemImage: AppTab.catalog.systemImage)

@@ -4,9 +4,11 @@ import SwiftUI
 struct LearnlyApp: App {
     @State private var router = AppRouter()
 
+    private let container: AppContainer = AppContainer()
+
     var body: some Scene {
         WindowGroup {
-            RootTabView(router: router)
+            RootTabView(router: router, container: container)
         }
     }
 }
