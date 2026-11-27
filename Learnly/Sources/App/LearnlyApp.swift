@@ -1,11 +1,12 @@
 import SwiftUI
-import Core
 
 @main
 struct LearnlyApp: App {
+    @State private var router = AppRouter()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootTabView(router: router)
         }
     }
 }
