@@ -24,5 +24,11 @@ public struct Course: Identifiable, Hashable, Sendable {
 }
 
 extension Course {
-    public enum Category: CaseIterable, Hashable, Sendable { }
+    public struct Category: RawRepresentable, Hashable, Sendable {
+        public let rawValue: String
+
+        public init?(rawValue: String) {
+            self.rawValue = rawValue
+        }
+    }
 }
