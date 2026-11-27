@@ -37,7 +37,6 @@ extension LessonDTO {
             return nil
         }
 
-
         return Lesson(
             id: id,
             courseID: courseID,
