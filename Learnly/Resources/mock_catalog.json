@@ -1,0 +1,152 @@
+{
+    "courses": [
+        {
+            "id": "11111111-1111-4111-8111-111111111101",
+            "title": "Everyday English Essentials",
+            "description": "Build fluency for daily conversations, travel, and clear workplace communication.",
+            "cover_url": "https://picsum.photos/seed/learnly-english/800/450",
+            "category": "Foreign Languages"
+        },
+        {
+            "id": "11111111-1111-4111-8111-111111111102",
+            "title": "German for Beginners (A1)",
+            "description": "Master German pronunciation, core grammar cases, and essential everyday phrases.",
+            "cover_url": "https://picsum.photos/seed/learnly-german/800/450",
+            "category": "Foreign Languages"
+        },
+        {
+            "id": "11111111-1111-4111-8111-111111111103",
+            "title": "Conversational Spanish",
+            "description": "Start speaking Spanish naturally with high-frequency verbs and practical dialogues.",
+            "cover_url": null,
+            "category": "Foreign Languages"
+        },
+        {
+            "id": "11111111-1111-4111-8111-111111111104",
+            "title": "Modern Swift & Concurrency",
+            "description": "Write safe, idiomatic Swift 6 using value types, protocols, async/await, and actors.",
+            "cover_url": "https://picsum.photos/seed/learnly-swift/800/450",
+            "category": "Programming Languages"
+        },
+        {
+            "id": "11111111-1111-4111-8111-111111111105",
+            "title": "Rust Ownership in Practice",
+            "description": "Understand ownership, borrowing, lifetimes, and expressive error handling without GC.",
+            "cover_url": "https://picsum.photos/seed/learnly-rust/800/450",
+            "category": "Programming Languages"
+        },
+        {
+            "id": "11111111-1111-4111-8111-111111111106",
+            "title": "Acquaintance with Coding Agents",
+            "description": "Learn how LLM coding agents plan, call tools, verify edits, and fit into iOS workflows.",
+            "cover_url": "https://picsum.photos/seed/learnly-agents/800/450",
+            "category": "Coding Agents"
+        }
+    ],
+    "lessons": [
+        {
+            "id": "22222222-2222-4222-8222-222222222201",
+            "course_id": "11111111-1111-4111-8111-111111111101",
+            "title": "Greetings & Natural Small Talk",
+            "position": 1,
+            "duration_seconds": 320,
+            "hls_url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+            "id": "22222222-2222-4222-8222-222222222202",
+            "course_id": "11111111-1111-4111-8111-111111111101",
+            "title": "Travel & Ordering Food Confidently",
+            "position": 2,
+            "duration_seconds": 485,
+            "hls_url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
+        },
+        {
+            "id": "22222222-2222-4222-8222-222222222203",
+            "course_id": "11111111-1111-4111-8111-111111111101",
+            "title": "Past Simple vs. Present Perfect",
+            "position": 3,
+            "duration_seconds": 540,
+            "hls_url": "https://test-streams.mux.dev/tos_ismc/main.m3u8"
+        },
+        {
+            "id": "22222222-2222-4222-8222-222222222204",
+            "course_id": "11111111-1111-4111-8111-111111111102",
+            "title": "Pronunciation, Umlauts & Articles",
+            "position": 1,
+            "duration_seconds": 410,
+            "hls_url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_adv_example_hevc/master.m3u8"
+        },
+        {
+            "id": "22222222-2222-4222-8222-222222222205",
+            "course_id": "11111111-1111-4111-8111-111111111102",
+            "title": "Nominative & Accusative Cases",
+            "position": 2,
+            "duration_seconds": 615,
+            "hls_url": null
+        },
+        {
+            "id": "22222222-2222-4222-8222-222222222206",
+            "course_id": "11111111-1111-4111-8111-111111111103",
+            "title": "Essential Verbs: Ser vs. Estar",
+            "position": 1,
+            "duration_seconds": 390,
+            "hls_url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+            "id": "22222222-2222-4222-8222-222222222207",
+            "course_id": "11111111-1111-4111-8111-111111111104",
+            "title": "Value Types, Protocols & Generics",
+            "position": 1,
+            "duration_seconds": 640,
+            "hls_url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
+        },
+        {
+            "id": "22222222-2222-4222-8222-222222222208",
+            "course_id": "11111111-1111-4111-8111-111111111104",
+            "title": "Async/Await & Structured Concurrency",
+            "position": 2,
+            "duration_seconds": 780,
+            "hls_url": "https://test-streams.mux.dev/tos_ismc/main.m3u8"
+        },
+        {
+            "id": "22222222-2222-4222-8222-222222222209",
+            "course_id": "11111111-1111-4111-8111-111111111104",
+            "title": "Actors & Sendable in Swift 6",
+            "position": 3,
+            "duration_seconds": 710,
+            "hls_url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_adv_example_hevc/master.m3u8"
+        },
+        {
+            "id": "22222222-2222-4222-8222-222222222210",
+            "course_id": "11111111-1111-4111-8111-111111111105",
+            "title": "Ownership, Borrowing & Lifetimes",
+            "position": 1,
+            "duration_seconds": 830,
+            "hls_url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        },
+        {
+            "id": "22222222-2222-4222-8222-222222222211",
+            "course_id": "11111111-1111-4111-8111-111111111105",
+            "title": "Error Handling with Result & Option",
+            "position": 2,
+            "duration_seconds": 560,
+            "hls_url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8"
+        },
+        {
+            "id": "22222222-2222-4222-8222-222222222212",
+            "course_id": "11111111-1111-4111-8111-111111111106",
+            "title": "How Tool-Calling Coding Agents Work",
+            "position": 1,
+            "duration_seconds": 495,
+            "hls_url": "https://test-streams.mux.dev/tos_ismc/main.m3u8"
+        },
+        {
+            "id": "22222222-2222-4222-8222-222222222213",
+            "course_id": "11111111-1111-4111-8111-111111111106",
+            "title": "Context, Prompts & Verification Loops",
+            "position": 2,
+            "duration_seconds": 625,
+            "hls_url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_adv_example_hevc/master.m3u8"
+        }
+    ]
+}
